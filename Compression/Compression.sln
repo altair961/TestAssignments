@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "Compression\Compression.csproj", "{32923635-41C0-464A-A8EE-C1A87670CB1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression.Tests", "Compression.Tests\Compression.Tests.csproj", "{61B2EAAC-C49E-493D-835C-AD5F0A8721E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32923635-41C0-464A-A8EE-C1A87670CB1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32923635-41C0-464A-A8EE-C1A87670CB1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32923635-41C0-464A-A8EE-C1A87670CB1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32923635-41C0-464A-A8EE-C1A87670CB1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B2EAAC-C49E-493D-835C-AD5F0A8721E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B2EAAC-C49E-493D-835C-AD5F0A8721E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B2EAAC-C49E-493D-835C-AD5F0A8721E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B2EAAC-C49E-493D-835C-AD5F0A8721E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

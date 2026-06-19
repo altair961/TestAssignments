@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Compresson;
+namespace Compression;
 
 public class RunLengthCompressor : ITextCompressor
 {

@@ -1,4 +1,4 @@
-namespace Compresson;
+namespace Compression;
 
 public interface ITextCompressor
 {

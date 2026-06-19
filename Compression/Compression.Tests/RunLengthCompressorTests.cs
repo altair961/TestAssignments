@@ -1,4 +1,4 @@
-﻿using Compresson;
+﻿using Compression;
 using Xunit;
 
 namespace Compression.Tests;
