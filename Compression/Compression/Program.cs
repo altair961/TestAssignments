@@ -5,11 +5,12 @@ internal class Program
     static void Main(string[] args)
     {
         var compressor = new RunLengthCompressor();
-        var compressed = compressor.Compress("aaabbcccdde");
+        var original = "aaabbcccdde";
+        var compressed = compressor.Compress(original);
+        var decompressed = compressor.Decompress(compressed);
 
-        Console.WriteLine("Compressed: " + compressed);
-         
-        var decompressed = compressor.Compress("aaabbcccdde");
-        Console.WriteLine("Decompressed: " + decompressed);
+        Console.WriteLine(original);
+        Console.WriteLine(compressed);
+        Console.WriteLine(decompressed);
     }
 }
